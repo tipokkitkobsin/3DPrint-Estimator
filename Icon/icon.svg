@@ -1,0 +1,22 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- flat single-color tile -->
+  <rect width="1024" height="1024" rx="232" fill="#1C1E24"/>
+
+  <!-- minimal one-color nozzle glyph (white) -->
+  <g fill="#FFFFFF">
+    <!-- filament throat -->
+    <rect x="484" y="296" width="56" height="92" rx="16"/>
+    <!-- heater block -->
+    <polygon points="418,384 606,384 566,492 458,492"/>
+    <!-- nozzle cone -->
+    <polygon points="458,492 566,492 512,604"/>
+    <!-- single printed layer line -->
+    <rect x="446" y="648" width="132" height="20" rx="10"/>
+  </g>
+
+  <!-- fin notches (cut into the block, tile color) -->
+  <g stroke="#1C1E24" stroke-width="11" stroke-linecap="round">
+    <line x1="446" y1="416" x2="578" y2="416"/>
+    <line x1="453" y1="448" x2="571" y2="448"/>
+  </g>
+</svg>
